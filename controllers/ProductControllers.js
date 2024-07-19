@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const Product = require('../models/ProductModel');
+const Product = require('../models/ProductModels');
 
 
 const createProduct = async(req,res) =>{
