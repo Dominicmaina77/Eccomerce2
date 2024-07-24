@@ -24,7 +24,7 @@ app.listen(port,(req,res) => {
     console.log(`database url is ${dbconnect}`);
 })
 
-app.use('/',(req,res)=>{
+app.get('/',(req,res)=>{
     res.send("Server is running");
 })
 
