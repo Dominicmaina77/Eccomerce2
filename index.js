@@ -24,6 +24,10 @@ app.listen(port,(req,res) => {
     console.log(`database url is ${dbconnect}`);
 })
 
+app.get('/',(req,res)=>{
+    res.send("Server is running");
+})
+
 
 mongoose.connect(dbconnect,{useNewUrlParser:true,useUnifiedTopology:true})
    .then(() => console.log("Connected to MongoDB"))
