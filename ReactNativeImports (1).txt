@@ -1,0 +1,21 @@
+npm install @react-navigation/native
+npm install @react-navigation/native @react-navigation/native-stack
+npm install react-native-screens react-native-safe-area-context
+npx expo install react-native-gesture-handler react-native-reanimated
+npm install react-native-gesture-handler react-native-reanimated
+npm react-native link react-native-reanimated
+npm react-native link react-native-gesture-handler
+npm install @react-navigation/bottom-tabs
+npm i react-native-vector-icons
+npm i react-native-feather
+npm i axios
+npm i tailwindcss@3.3.2
+npm install nativewind@2.0.11
+npx tailwindcss init
+npm install @react-navigation/stack
+npm install --save-dev @babel/plugin-transform-class-properties
+npm install --save-dev @babel/plugin-transform-private-methods
+npm install --save-dev @babel/plugin-transform-private-property-in-object
+npm install --save-dev metro-react-native-babel-preset
+
+
